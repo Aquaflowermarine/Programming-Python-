@@ -1,5 +1,3 @@
-import area2
-
 area2.print_area(10, 20)
 area2.print_area(20, 30)
 

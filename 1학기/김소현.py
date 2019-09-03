@@ -58,12 +58,12 @@ def show_kind():
 
         if kind==5:
             if goods==0:#입력받은 상품이 0일 때
-                su=random.randint(1,7)#랜덤을 돌려서 숫자하나 뽑고.
+                su= random.randint(1, 7)#랜덤을 돌려서 숫자하나 뽑고.
                 sum=0
                 sum=sum+12000#제일복권 가격을 넣고.
                 print("제일복권 당첨 상 : ",cuji1[su],"\t가격 : ",sum,"원")#랜덤으로 나온 상품을 출력합니다.
             elif goods==1:#입력받은 상품이 1일때
-                su=random.randint(1, 7)#랜덤을 돌려서 숫자하나뽑고
+                su= random.randint(1, 7)#랜덤을 돌려서 숫자하나뽑고
                 sum=0
                 sum=sum+12000#제일복권 가격넣고
                 print("제일복권 당첨 상 : ",cuji2[su],"\t가격 : ",sum,"원")#출력합니다.
